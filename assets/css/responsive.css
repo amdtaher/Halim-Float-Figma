@@ -1,0 +1,244 @@
+/* Large Device Checking Size- 1000px */
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .container{
+        width: 970px;
+    }
+    /* Header Section */
+    .logo {
+        width: 200px;
+    }
+    .navigation-bar{
+        width: 740px;
+    }
+    /* Banner Section */
+    .banner-text{
+        width: 500px;
+    }
+    .banner-image{
+        width: 440px;
+    }
+    /* Features Section */
+    .features-area::after {
+        top: 3%;
+        right: 0%;
+    }
+    .feature-image {
+        width: 500px;
+    }
+    .feature-text {
+        width: 470px;
+        margin: 0;
+    }
+    /* Dark Banner */
+    .dark-banner-area {
+        background-size: contain;
+    }
+    /* Menu */
+    .single-menu {
+        width: 303px;
+    }
+    /* Testimonial */
+    .testimonial {
+        width: 900px;
+    }
+    /* Qna */
+    .single-qna {
+        width: 435px;
+    }
+}
+
+/* Tablet Device Checking Size- 800px */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    /* Header Section */
+    header{
+        margin-top: 0;
+    }
+    .logo {
+        width: 150px;
+    }
+    .navigation-bar{
+        width: 570px;
+    }
+    /* Banner Section */
+    .banner-text{
+        width: 380px;
+        margin: 0;
+    }
+    .banner-image{
+        width: 340px;
+    }
+    /* Feature Section */
+    .feature-text {
+        width: 400px;
+        margin: 0;
+        padding: 0 30px;
+    }
+    .feature-image {
+        width: 350px;
+    }
+    .features-area::after {
+        top: 3%;
+        right: 0%;
+        width: 350px;
+    }
+    /* Dark Banner */
+    .dark-banner {
+        padding: 0px 100px;
+    }
+    .dark-banner P {
+        padding: 0 50px;
+    }
+    /* Menu Section */
+    .section-title {
+        margin: 100px 50px;
+    }
+    .section-title P {
+        padding: 0 50px;
+    }
+    .single-menu {
+        width: 243px;
+        margin-right: 10px;
+    }
+    /* Testimonial Section */
+    .testimonial {
+        width: 700px;
+    }
+    .testimonial h6 {
+        padding: 0 100px;
+    }
+    /* Qna Section */
+    .single-qna {
+        width: 350px;
+        margin-right: 50px;
+    }
+    /* Offer Section */
+    .offer h2 {
+        padding: 0 100px;
+    }
+}
+
+/* Mobile Device Checking Size- 400px */
+@media only screen and (max-width:767px){
+    .container{
+        width: 350px;
+    }
+    /* Header Section */
+    header{
+        position: static;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .navigation-bar{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .navigation-bar ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        transition: .3s;
+    }
+    .navigation-bar ul li a{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .navigation-bar ul li:hover{
+        background-color: var(--primary);
+    }
+    .navigation-bar ul li:hover a{
+        color: var(--white) !important;
+    }
+    .navigation-bar ul li .btn{
+        border-radius: 10px;
+        padding: 15px 35px;
+    }
+    .navigation-bar ul li:last-child:hover{
+        background-color: transparent !important;
+    }
+    /* Banner Section */
+    .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image{
+        width: 100%;
+        margin-top: 40px;
+    }
+    /* Orange Section */
+    .orange h4 {
+        font-size: 25px;
+    }
+    /* Feature Section */
+    .feature-text{
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
+    .feature-text ul li::before {
+        top: 0;
+        right: 40%;
+    }
+    .feature-image{
+        width: 100%;
+    }
+    .single-feature:first-child {
+        margin: 0 0 30px 0;
+    }
+    .features-area::after {
+        width: 0;
+    }
+    /* Dark Banner */
+    .dark-banner,.dark-banner p,.banner-text p,.section-title p,.testimonial h6,.offer h2{
+        padding: 0;
+    }
+    .section-title{
+        margin: 0;
+    }
+    /* Menu Section */
+    .single-menu{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    /* Testimonial */
+    .testimonial {
+        width: 360px;
+        padding: 40px 0;
+    }
+    .testimonial h6 {
+        font-size: 16px;
+    }
+    /* Qna Section */
+    .single-qna {
+        width: 100%;
+        margin: 0;
+    }
+    /* Black Banner */
+    .black-banner{
+        width: 100%;
+        text-align: center;
+    }
+    .black-banner .btn{
+        margin-top: 20px;
+        width: 100%;
+    }
+    /* Offer Section */
+    .offer input[type="submit"] {
+        margin-top: 20px;
+    }
+}
+
+/* Wide Mobile Device Checking Size- 500px */
+@media only screen and (min-width:480px) and (max-width:767){
+    .container{
+        width: 450px;
+    }
+}
